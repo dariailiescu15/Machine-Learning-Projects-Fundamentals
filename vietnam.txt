@@ -1,0 +1,46 @@
+==============================================================
+           Descrierea setului de date: Vietnam Housing Dataset
+==============================================================
+
+Acest set de date conține informații despre locuințe din Vietnam, împreună cu caracteristicile acestora și prețurile de vânzare.  
+Scopul analizei este de a descoperi factorii care influențează prețul unei locuințe și de a construi un model de regresie liniară pentru a estima prețul pe baza caracteristicilor proprietății.
+
+--------------------------------------------------------------
+1. Coloanele din setul de date
+--------------------------------------------------------------
+
+- Address: Adresa locuinței.
+
+- Area: Suprafața locuinței în metri pătrați.
+  
+- Frontage: Lățimea frontului proprietății.
+ 
+- Access Road: Tipul drumului de acces.
+  
+- House direction: Orientarea casei.
+  
+- Balcony direction: Orientarea balconului.
+ 
+- Floors: Numărul de etaje.
+ 
+- Bedrooms: Numărul de dormitoare.
+ 
+- Bathrooms: Numărul de băi.
+ 
+- Legal status: Starea legală a proprietății.
+  
+- Furniture state: Starea mobilierului.
+  
+- Price: Prețul locuinței. 
+
+--------------------------------------------------------------
+2. Problema de regresie
+--------------------------------------------------------------
+
+Se urmărește construirea unui model de regresie liniară care să estimeze Price pe baza caracteristicilor locuinței și ale proprietății.
+
+Variabila dependentă (Y):
+    Y = Price
+
+Variabile independente (predictori X) pot include:
+    X = [Area, Frontage, Access Road, House direction, Balcony direction, Floors, Bedrooms, Bathrooms, Legal status, Furniture state]
