@@ -1,0 +1,39 @@
+Bank Loan Classification Dataset
+================================
+
+Problema:
+---------
+
+Setul de date este conceput pentru a prezice probabilitatea ca o persoană să accepte o ofertă de împrumut personal, pe baza unor informații demografice, financiare și comportamentale. Scopul este de a construi un model de clasificare care, pornind de la caracteristicile individului, să preconizeze dacă acesta va face un „Personal Loan” (împrumut personal) sau nu.
+
+Descrierea setului de date:-
+--------------------------
+
+1. ID: identificator unic pentru fiecare individ din setul de date.
+
+2. Age: vârsta individului, exprimată în ani.
+
+3. Experience: numărul de ani de experiență profesională a individului.
+
+4. Income: venitul anual al individului (numeric).
+
+5. ZIP Code: codul poștal al individului — informație geografică.
+
+6. Family: mărimea familiei individului (număr de membri).
+
+7. CCAvg: media cheltuielilor lunare pe card de credit (sau media cheltuielilor curente pe card).
+
+8. Education: nivelul de educație al individului (numeric / categoric, de obicei codificat).
+
+9. Mortgage: valoarea ipotecii (sau rata de ipotecă) deținută de individ (numeric).
+
+10. Personal Loan: variabila-țintă (target), indicând dacă persoana a acceptat un împrumut personal („da” / „nu”).
+
+11. Securities Account: variabilă binară/indicativă care arată dacă individul are un cont de titluri — da sau nu.
+
+12. CD Account: variabilă binară/indicativă care arată dacă individul are un cont de depozit cu termen (certificate of deposit) — da sau nu.
+
+13. Online: variabilă binară ce indică dacă individul are acces la servicii bancare online — da sau nu.
+
+14. CreditCard: variabilă binară ce arată dacă individul deține un card de credit emis de bancă — da sau nu.
+

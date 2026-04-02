@@ -1,0 +1,14 @@
+Set de date: Amsterdam House Price Prediction
+
+Descriere: Setul de date conține informații despre prețurile locuințelor din Amsterdam.
+
+Coloane:
+
+* Address – Adresa completă a locuinței
+* Zip – Codul poștal al zonei
+* Price – Prețul locuinței (variabila țintă pentru predicție)
+* Area – Suprafața locuinței
+* Room – Numărul de camere
+* Lon – Coordonata longitudinală a locației
+* Lat – Coordonata latitudinală a locației
+
